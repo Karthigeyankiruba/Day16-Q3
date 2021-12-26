@@ -1,0 +1,34 @@
+.required:after {
+    content:"*";
+    color: red;
+  }
+  .name{
+      display: flex;
+      gap: 20px;
+  }
+  .ph1{
+    margin-left: 195px;
+  }
+  #email{
+    display: flex;
+      width: 200px;
+  }
+ 
+.star div {
+      color: rgb(241, 153, 102);
+  
+  }
+  .star input {
+      display: none;
+  }
+  .star input + label {
+          font-size: 25px; 
+          cursor: pointer;   
+  }
+  .star input:checked + label ~ label {
+                  color: #ffffff;
+  }
+  
+  td{
+      width:9px;
+  }
